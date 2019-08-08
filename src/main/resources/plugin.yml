@@ -2,3 +2,4 @@ name: RetailSimulator
 version : DEV
 authors: [dandabs, Pyxxl.]
 main: uk.org.cloudcraftmc.RetailSimulator.RetailSimulator
+load: startup

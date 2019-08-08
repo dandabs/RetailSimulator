@@ -16,8 +16,7 @@ public class Configuration {
         //Save the config whenever you manipulate it
         saveConfig();
 
-        config.addDefault("lang.reload", "&b[CC] &6Plugin reloaded.");
-        config.addDefault("lang.reload", "&b[CC] &6Plugin reloaded.");
+        //config.addDefault("lang.reload", "&b[CC] &6Plugin reloaded.");
 
         config.options().copyDefaults(true);
         saveConfig();
