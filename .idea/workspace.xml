@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88241b9e-65a8-487e-9c37-1922b5ead05b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/generators/PlotGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/generators/SchematicPopulator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/RetailSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/RetailSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/utils/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/utils/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/generators/PlotGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/generators/PlotGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/generators/SchematicPopulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/generators/SchematicPopulator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +33,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
