@@ -25,7 +25,7 @@ import java.util.Random;
 
 public class SchematicPopulator extends BlockPopulator {
 
-    File shop = new File(RetailSimulator.getInstance().getDataFolder().getName() + "/DefaultShop.schem");
+    File shop = new File(RetailSimulator.getInstance().getDataFolder().getAbsolutePath() + "/DefaultShop.schem");
 
     @Override
     public void populate(World world, Random random, Chunk chunk) {
@@ -47,7 +47,7 @@ public class SchematicPopulator extends BlockPopulator {
                 for (Y = world.getMaxHeight()-1; chunk.getBlock(X, Y, Z).getType() == Material.AIR; Y--); // Find the highest block of the (X,Z) coordinate chosen.
                 world.generateTree(chunk.getBlock(X, Y, Z).getLocation(), TreeType.MEGA_REDWOOD); // The tree type can be changed if you want.
 
-                /*try (EditSession editSession = WorldEdit.getInstance().getEditSessionFactory().getEditSession((com.sk89q.worldedit.world.World) world, -1)) {
+                try (EditSession editSession = WorldEdit.getInstance().getEditSessionFactory().getEditSession((com.sk89q.worldedit.world.World) world, -1)) {
                     Operation operation = new ClipboardHolder(clipboard)
                             .createPaste(editSession)
                             .to(BlockVector3.at(X, Y, Z))
@@ -56,7 +56,7 @@ public class SchematicPopulator extends BlockPopulator {
                     Operations.complete(operation);
                 } catch (WorldEditException e) {
                     e.printStackTrace();
-                }*/
+                }
 
             }
         }
