@@ -1,8 +1,5 @@
 package uk.org.cloudcraftmc.RetailSimulator;
 
-import com.github.intellectualsites.plotsquared.api.PlotAPI;
-import com.github.intellectualsites.plotsquared.plot.generator.HybridGen;
-import com.github.intellectualsites.plotsquared.plot.generator.PlotGenerator;
 import org.bukkit.Bukkit;
 import org.bukkit.generator.ChunkGenerator;
 import org.bukkit.plugin.Plugin;
