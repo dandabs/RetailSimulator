@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88241b9e-65a8-487e-9c37-1922b5ead05b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/generators/TycoonGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/populators/BaseStorePopulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/utils/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/RetailSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/RetailSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/generators/PlotGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/generators/SchematicPopulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/generators/TycoonGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/org/cloudcraftmc/RetailSimulator/generators/TycoonGenerator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
