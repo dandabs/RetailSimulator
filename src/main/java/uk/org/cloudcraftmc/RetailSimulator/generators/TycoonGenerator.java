@@ -41,9 +41,9 @@ public class TycoonGenerator extends ChunkGenerator {
                 currentHeight = (int) (generator.noise(chunkX*16+X, chunkZ*16+Z, 0.5D, 0.5D)*15D+50D);
                 chunk.setBlock(X, 50, Z, Material.GRASS);
                 chunk.setBlock(X, 49, Z, Material.OBSIDIAN);
-                //for (int i = currentHeight-2; i > 0; i--)
-                //    chunk.setBlock(X, i, Z, Material.STONE);
-                //chunk.setBlock(X, 0, Z, Material.BEDROCK);
+                for (int i = currentHeight-2; i > 0; i--)
+                    //chunk.setBlock(X, i, Z, Material.STONE);
+                    chunk.setBlock(X, 0, Z, Material.BEDROCK);
             }
         return chunk;
     }
