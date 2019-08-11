@@ -48,9 +48,9 @@ public class TycoonGenerator extends ChunkGenerator {
         return chunk;
     }
 
-    @Override
+    /*@Override
     public List<BlockPopulator> getDefaultPopulators(World world) {
         return Arrays.asList((BlockPopulator)new BaseStorePopulator());
-    }
+    }*/
 
 }
