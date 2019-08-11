@@ -21,32 +21,12 @@ public class RetailSimulator extends JavaPlugin {
     private static RetailSimulator instance;
 
     private static Logger logger = Logger.getLogger("Minecraft");
-    public PlotAPI api;
 
     @Override
     public void onEnable() {
 
         instance = this;
         new Configuration().loadConfiguration();
-
-        PluginManager manager = Bukkit.getServer().getPluginManager();
-        final Plugin plotsquared = manager.getPlugin("PlotSquared");
-
-        // Disable the plugin if PlotSquared is not installed
-
-        // If you move any PlotSquared related tasks to en external class you
-        // wouldn't have to disable the plugin if PlotSquared wasn't installed
-
-        if(plotsquared != null && !plotsquared.isEnabled()) {
-            logger.log(null, "&c[RetailSimulator] Could not find PlotSquared Dependency! Disabling plugin...");
-            manager.disablePlugin(this);
-            return;
-        }
-
-        // Do PlotSquared related stuff
-        api = new PlotAPI();
-
-        // You can now use this api object to do powerful things.
 
     }
 
@@ -66,12 +46,6 @@ public class RetailSimulator extends JavaPlugin {
     public static RetailSimulator getInstance() {
 
         return instance;
-
-    }
-
-    public PlotAPI getPlotAPI() {
-
-        return api;
 
     }
 
