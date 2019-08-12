@@ -17,7 +17,7 @@ import java.io.IOException;
 
 public class Util {
 
-    public static void loadSchematic(Location location, String fileName) {
+    /*public static void loadSchematic(Location location, String fileName) {
         WorldEditPlugin worldEditPlugin = (WorldEditPlugin) Bukkit.getPluginManager().getPlugin("WorldEdit");
         EditSession session = worldEditPlugin.getWorldEdit().getEditSessionFactory().getEditSession(new BukkitWorld(location.getWorld()), 10000);
         File schematic = new File(RetailSimulator.getInstance().getDataFolder() + File.separator + "/schematics/" + fileName + ".schematic");
@@ -28,6 +28,6 @@ public class Util {
         } catch (MaxChangedBlocksException | DataException | IOException e) {
             e.printStackTrace();
         }
-    }
+    }*/
 
 }

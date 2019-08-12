@@ -2,13 +2,9 @@ package uk.org.cloudcraftmc.RetailSimulator.generators;
 
 import org.bukkit.Material;
 import org.bukkit.World;
-import org.bukkit.generator.BlockPopulator;
 import org.bukkit.generator.ChunkGenerator;
 import org.bukkit.util.noise.SimplexOctaveGenerator;
-import uk.org.cloudcraftmc.RetailSimulator.populators.BaseStorePopulator;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
 
 public class TycoonGenerator extends ChunkGenerator {
