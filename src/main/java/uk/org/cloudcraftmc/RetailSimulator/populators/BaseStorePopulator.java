@@ -21,9 +21,9 @@ public class BaseStorePopulator extends BlockPopulator {
                 int Z = random.nextInt(15);
                 int Y;
                 for (Y = world.getMaxHeight()-1; chunk.getBlock(X, Y, Z).getType() == Material.AIR; Y--); // Find the highest block of the (X,Z) coordinate chosen.
-                //world.generateTree(chunk.getBlock(X, Y, Z).getLocation(), TreeType.TREE); // The tree type can be changed if you want.
+                world.generateTree(chunk.getBlock(X, Y, Z).getLocation(), TreeType.TREE); // The tree type can be changed if you want.
 
-                Util.loadSchematic(chunk.getBlock(X, Y, Z).getLocation(), "base");
+                //Util.loadSchematic(chunk.getBlock(X, Y, Z).getLocation(), "base");
 
             }
         }
